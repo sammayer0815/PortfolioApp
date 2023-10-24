@@ -1,5 +1,5 @@
 <?php
 
-require 'register.view.php';
+require 'views/register.view.php';
 
 ?>

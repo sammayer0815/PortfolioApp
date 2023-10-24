@@ -1,5 +1,5 @@
 <?php
 
-require 'dashboard.view.php';
+require 'views/dashboard.view.php';
 
 ?>

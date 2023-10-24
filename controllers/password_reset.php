@@ -1,5 +1,5 @@
 <?php
 
-require 'password_reset.view.php';
+require 'views/password_reset.view.php';
 
 ?>

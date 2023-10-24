@@ -1,5 +1,5 @@
 <?php
 
-require 'portfolio.view.php';
+require 'views/portfolio.view.php';
 
 ?>
