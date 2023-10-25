@@ -13,6 +13,10 @@ html {
   height: 7rem;
 }
 
+.logo-footer {
+  height: 15rem;
+}
+
 body {
   display: grid;
   grid-template-rows: repeat(3, 8rem, 25rem, 12rem);
@@ -129,7 +133,10 @@ main h1 {
 }
 
 footer {
+  display: flex;
+  gap: 33%;
   background-color: black;
   color: white;
   height: 20rem;
+  text-decoration: none;
 }
