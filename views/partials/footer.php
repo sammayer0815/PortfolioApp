@@ -11,6 +11,8 @@
         </ul>
     </section>
     <section class="icons">
-
+        <img src="/public/images/github.svg" />
+        <img src="/public/images/linkedin.svg" />
+        <img src="/public/images/mail.svg" />
     </section>
 </footer>

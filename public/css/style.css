@@ -134,9 +134,17 @@ main h1 {
 
 footer {
   display: flex;
-  gap: 33%;
+  gap: 20%;
+  justify-content: center;
+  padding: 2rem;
   background-color: black;
   color: white;
   height: 20rem;
   text-decoration: none;
+}
+
+.icons {
+  color: white;
+  fill: white;
+  align-items: center;
 }
