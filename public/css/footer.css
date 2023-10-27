@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: auto;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  height: 20rem;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+}
+
+.icons {
+  color: white;
+  fill: white;
+  align-items: center;
+}
+
+.logo-footer {
+  height: 15rem;
+}

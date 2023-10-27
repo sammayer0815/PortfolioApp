@@ -4,7 +4,7 @@
 
 <body>
    <?php include "partials/header.php" ?>
-   <main class="home-container">
+   <main>
         <div class="hero--container">
             <section class="hero">
             <div class="hero-text">
@@ -13,11 +13,10 @@
                     waar we trots zijn op de uiteenlopende prestaties van getalenteerde individuen. 
                     Dit portfolio is een viering van diversiteit en expertise.
                 </p>
-                <img width="150" height="150" src="/public/images/Scroll.png" alt="mouse" />
-
+                <img width="150" height="150" src="/public/images/scroll-down.png" alt="mouse" />
             </div>
             <div class="hero-image">
-                <img src="/public/images/hero-img.png" alt="rocket image" class="hero-img">
+                <img src="/public/images/rocket-hero.jpg" alt="rocket image" class="hero-img">
             </div>
         </section>
         </div>
