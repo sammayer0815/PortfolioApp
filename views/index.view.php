@@ -37,9 +37,15 @@
                 <h2>Fouad Taissate</h2>
                 <a href="/profileview" class="cta-profileview">Bekijk</a>
             </div>
-            
         </div>
-        
+    </section>
+    <section class="register">
+        <div class="register-image">
+            Hello world
+        </div>
+        <div class="register-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis inventore nulla? Perspiciatis quae, ut ipsum suscipit quisquam, veniam, totam natus excepturi est cupiditate dolore dolor ab. Omnis, accusamus repellendus.</p>
+        </div>
     </section>
     
    </main>

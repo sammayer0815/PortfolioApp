@@ -135,7 +135,8 @@ main h1 {
 footer {
   display: flex;
   gap: 20%;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   padding: 2rem;
   background-color: black;
   color: white;
@@ -143,8 +144,21 @@ footer {
   text-decoration: none;
 }
 
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+}
+
 .icons {
   color: white;
   fill: white;
   align-items: center;
+}
+
+.register {
+  display: flex;
+  justify-content: space-around;
 }
