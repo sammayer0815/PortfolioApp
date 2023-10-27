@@ -51,6 +51,6 @@
     </section>
     
    </main>
-   <?php require "partials/footer.php" ?>
+   <?php include "partials/footer.php" ?>
 </body>
 </html>
