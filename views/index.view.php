@@ -41,14 +41,16 @@
     </section>
     <section class="register">
         <div class="register-image">
-            Hello world
+            <img src="/public/images/register-image.jpg" alt="sollicitatie foto" class="register-img">
         </div>
         <div class="register-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis inventore nulla? Perspiciatis quae, ut ipsum suscipit quisquam, veniam, totam natus excepturi est cupiditate dolore dolor ab. Omnis, accusamus repellendus.</p>
-        </div>
+            <h1>Registreer nu</h1>
+            <p>Niet alleen dient je portfolio als showcase van jouw creatieve en professionele competenties, het fungeert tevens als tastbaar bewijs van jouw ervaring en toewijding.</p>
+            <a href="/register" class="cta-register">Registreer nu</a>
+    </div>
     </section>
     
    </main>
-   <?php include "partials/footer.php" ?>
+   <?php require "partials/footer.php" ?>
 </body>
 </html>

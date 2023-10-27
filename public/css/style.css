@@ -94,6 +94,8 @@ main h1 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 .portfolio-cards--container h1 {
@@ -137,6 +139,8 @@ footer {
   gap: 20%;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 1;
   padding: 2rem;
   background-color: black;
   color: white;
@@ -161,4 +165,39 @@ footer a {
 .register {
   display: flex;
   justify-content: space-around;
+  height: 500px;
+  padding: 3rem;
+  margin: 3rem 0rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.register-img {
+  height: 400px;
+  border-radius: 2rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.register-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.register-text h1 {
+  color: #b23a8a;
+}
+
+.cta-register {
+  background-color: #b23a8a;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 20rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  width: 40%;
+  text-align: center;
 }
