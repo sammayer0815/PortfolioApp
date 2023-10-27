@@ -16,7 +16,7 @@ $routes = [
 if(array_key_exists($_SERVER['REQUEST_URI'], $routes)) {
     require $routes[$_SERVER['REQUEST_URI']];
 } else {
-    echo '404';
+    require 'views/404.view.php';
     // require $routes['/404']; //Routes naar de 404 pagina
 }
 
