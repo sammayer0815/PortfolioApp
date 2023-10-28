@@ -1,0 +1,32 @@
+.portfolio-project-container {
+  padding: 3rem;
+}
+
+.portfolio-project-container h1 {
+  color: #b23a8a;
+  text-align: center;
+}
+
+.portfolio-project {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.portfolio-project-card {
+  padding: 1rem;
+  height: 15rem;
+  background-color: #37399f;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 1rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  text-align: center;
+}
+
+.portfolio-project-img {
+  height: 10rem;
+}

@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0 8rem;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  padding: 0 1rem;
+}
+
+.cta-login {
+  background-color: #b23a8a;
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+  border-radius: 20rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.logo-img {
+  height: 7rem;
+}
