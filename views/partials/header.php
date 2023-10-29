@@ -14,5 +14,4 @@
             <a href="/login" class="cta-login">Log in</a>
         </div>
     </nav>
-
    </header>

@@ -1,0 +1,60 @@
+.login-page {
+  background-image: url("/public/images/background-image-rocketdev.png");
+  background-size: cover;
+}
+
+.login-form-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.loginform {
+  background-color: #34399c;
+  width: 35rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 3px solid #b43787;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.loginform a {
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  background-color: #b43787;
+}
+
+.loginform h1 {
+  margin-bottom: 1rem;
+  color: #b43787;
+}
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  width: 80%;
+  padding: 24px 20px;
+  border-radius: 2rem;
+  border: none;
+}
+
+input[type="submit"] {
+  width: 50%;
+  padding: 24px 20px;
+  background-color: #b43787;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3rem;
+  border: none;
+  cursor: pointer;
+}

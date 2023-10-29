@@ -6,6 +6,7 @@ $routes = [
     "/login" => "controllers/login.php",
     "/register" => "controllers/register.php",
     "/password_reset" => "controllers/password_reset.php",
+    "/password_new" => "controllers/password_new.php",
     "/portfolio" => "controllers/portfolio.php",
     "/dashboard" => "controllers/dashboard.php",
     "/404" => "controllers/404.php",
@@ -20,4 +21,7 @@ if(array_key_exists($_SERVER['REQUEST_URI'], $routes)) {
     require 'views/404.view.php';
     // require $routes['/404']; //Routes naar de 404 pagina
 }
+
+
+
 ?>

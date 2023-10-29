@@ -9,3 +9,7 @@
 @import "./contact.css";
 @import "./dashboard.css";
 @import "./succes.css";
+@import "./login.css";
+@import "register.css";
+@import "password_reset.css";
+@import "password_new.css";
