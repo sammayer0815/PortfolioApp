@@ -1,0 +1,16 @@
+.succes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+.succes-container h1 {
+  font-size: 3rem;
+}
+
+.succes-created-img {
+  height: 10rem;
+}
