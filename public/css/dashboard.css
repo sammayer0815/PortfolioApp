@@ -1,0 +1,37 @@
+.dashboard-page {
+  padding: 2rem;
+  background-image: url("/public/images/background-image-rocketdev.png");
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dashboard-portfolio {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  height: 3rem;
+}
+
+.cta-add-portfolio {
+  align-self: flex-end;
+  margin-right: 8rem;
+}
+
+.addPortfolioBtn {
+  text-decoration: none;
+  color: white;
+  background-color: #b23a8a;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border-radius: 20rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
