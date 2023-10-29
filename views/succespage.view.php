@@ -11,6 +11,5 @@
         </main>
         <?php include "partials/footer.php" ?>
     </div>
-   
 </body>
 </html>

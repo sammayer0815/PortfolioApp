@@ -20,5 +20,4 @@ if(array_key_exists($_SERVER['REQUEST_URI'], $routes)) {
     require 'views/404.view.php';
     // require $routes['/404']; //Routes naar de 404 pagina
 }
-
 ?>
