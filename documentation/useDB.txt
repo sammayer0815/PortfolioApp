@@ -1,0 +1,5 @@
+Step 1: open terminal.
+Step 2: mysql -u root -p
+step 3: create DATABASE portfolioapp;
+step 4: use portfolioapp;
+step 5: source [path to PortfolioAppDB.sql]
