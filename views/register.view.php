@@ -2,9 +2,9 @@
 <html lang="en">
 <?php include "partials/head.php" ?>
 <body>
-   <?php include "partials/header.php" ?>
-   <script src="./public/js/passwordCheck.js"></script>
-   <main class="register-page">
+   <div class="grid-container">
+      <?php include "partials/header.php" ?>
+      <main class="register-page">
         <div class="register-form-container">
             <div class="registerform">
                <h1>Registreer nu</h1>
@@ -18,7 +18,9 @@
                </form>
             </div>
         </div>
-   </main>
-   <?php include "partials/footer.php" ?>
+      </main>
+      <?php include "partials/footer.php" ?>
+   </div>
+   <script src="./public/js/passwordCheck.js"></script>
 </body>
 </html>

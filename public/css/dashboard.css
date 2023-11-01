@@ -1,6 +1,8 @@
 .dashboard-page {
   padding: 2rem;
   background-image: url("/public/images/background-image-rocketdev.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 85vh;
   display: flex;
   align-items: center;
