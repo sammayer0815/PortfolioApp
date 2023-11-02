@@ -7,9 +7,9 @@
         <div class="login-form-container">
             <div class="loginform">
                <h1>Login</h1>
-               <form action="#">
+               <form action="./functions/login.php" method="post">
                   <input type="email" name="email" id="email" placeholder="Vul hier je email in" required>
-                  <input type="password" name="password" id="password" placeholder="wachtwoord" required>
+                  <input type="password" name="password" pattern="^(?=.*[A-Z])(?=.*\d).{8,}$" id="password" placeholder="wachtwoord" required>
                   <input type="submit" value="Login">
                </form>
                <a href="/register">Account aanmaken</a>

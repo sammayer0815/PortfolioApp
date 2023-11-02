@@ -22,13 +22,14 @@ USE `portfolioApp` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `portfolioApp`.`users` (
   `ID` INT NOT NULL AUTO_INCREMENT,
-  `username` VARCHAR(16) NULL,
+  `username` VARCHAR(64) NULL,
   `email` VARCHAR(255) NULL,
-  `password` VARCHAR(32) NULL,
+  `password` VARCHAR(255) NULL,
   `Portfolio_img_location` VARCHAR(45) NULL,
   `Profile_img_location` VARCHAR(45) NULL,
   `Created_at` TIMESTAMP NULL,
   `Updated_at` TIMESTAMP NULL,
+  UNIQUE KEY (`email`, `Portfolio_img_location`, `Profile_img_location`),
   PRIMARY KEY (`ID`));
 
 

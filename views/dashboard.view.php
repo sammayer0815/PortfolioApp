@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+
+//Checks if user is logged in
+if (!isset($_SESSION["email"])){
+    header("Location: /");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include "partials/head.php" ?>
