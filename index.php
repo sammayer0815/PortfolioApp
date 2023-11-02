@@ -12,16 +12,12 @@ $routes = [
     "/404" => "controllers/404.php",
     "/succes" => "controllers/succes.php",
     "/contact" => "controllers/contact.php",
-
+    "/portfolio-person" => "controllers/portfolio-person.php"
 ];
 
-if(array_key_exists($_SERVER['REQUEST_URI'], $routes)) {
+if (array_key_exists($_SERVER['REQUEST_URI'], $routes)) {
     require $routes[$_SERVER['REQUEST_URI']];
 } else {
     require 'views/404.view.php';
     // require $routes['/404']; //Routes naar de 404 pagina
 }
-
-
-
-?>
