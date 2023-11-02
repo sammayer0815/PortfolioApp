@@ -1,5 +1,7 @@
 .contact-page {
   background-image: url("/public/images/background-image-rocketdev.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-form-container {
