@@ -34,4 +34,5 @@ h1 {
 .place-holder4 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
