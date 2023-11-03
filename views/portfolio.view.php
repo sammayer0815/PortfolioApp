@@ -26,28 +26,7 @@
                     </div>
                 </div>
             </section>
-            <!-- <section class="portfolio-project-container">
-                <h1>Bekijk het werk</h1>
-                <div class="portfolio-project">
-                    <div class="portfolio-project-card">
-                    <img src="/public/images/Projecten-1.png" class="portfolio-project-img" >
-                    <h3>FinanceBook</h3>
-                    <p>Auteur : Niloyan Sellathurai</p>
-                    </div>
-
-                    <div class="portfolio-project-card">
-                    <img src="/public/images/Projecten-2.png" class="portfolio-project-img" >
-                    <h3>Hart van India</h3>
-                    <p>Auteur : Niloyan Sellathurai</p>
-                    </div>
-
-                    <div class="portfolio-project-card">
-                    <img src="/public/images/Projecten-1.png" class="portfolio-project-img" >
-                    <h3>FinanceBook</h3>
-                    <p>Auteur : Niloyan Sellathurai</p>
-                    </div>
-                </div>
-            </section> -->
+            
         
         </main>
         <?php include "partials/footer.php" ?>

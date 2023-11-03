@@ -1,38 +1,68 @@
-.container-personview {
+.person-view-container {
   background-image: url("/public/images/background-image-rocketdev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
-  text-align: center;
+  padding: 2rem;
 }
 
-.place-holder {
+.portfolio-person {
   display: flex;
-  margin: 0 auto;
-}
-
-img {
-  max-width: 50rem;
-  max-height: 50rem;
-}
-
-.place-holder2 {
-  display: flex;
-}
-
-.place-holder2 > h2,
-p {
-  margin: 0 auto;
-}
-
-h1 {
-  margin: 0 auto;
-}
-
-.place-holder3 {
-  display: flex;
-}
-
-.place-holder4 {
-  display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
+  height: 30rem;
+}
+
+.portfolio-person h1 {
+  color: #b43787;
+}
+
+.person-img {
+  height: 30rem;
+  border-radius: 20rem;
+  border: 8px solid #34399c;
+}
+
+.person-about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30rem;
+}
+
+.portfolio-person p {
+  font-size: 1.5rem;
+}
+
+.person-about p {
+  font-size: 1.5rem;
+  width: 40%;
+}
+
+.person-skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30rem;
+}
+
+.list-items {
+  font-size: 2rem;
+}
+
+.person-hobby {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 20rem;
+}
+
+.hobby {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

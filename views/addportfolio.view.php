@@ -63,8 +63,9 @@
                             <input type="text" name="githuburl" id="githuburl" placeholder="https://www.linkedin.com/in/niloyan-sellathurai-019b8b170/"><br>
                     </div>
                 </div>
-
-                <input type="submit" value="Toevoegen">
+                <div class="submitbutton-addportfolio">
+                    <input type="submit" value="Toevoegen">
+                </div>
             </form>
         </main>
         <?php include "partials/footer.php" ?>

@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include "partials/head.php" ?>
-
-
 <body>
     <?php include "partials/header.php" ?>
-    <div class="container-personview">
-        <section class="place-holder">
-            <img src="/public/images/Nilo.png" />
-            <h2 class="Name">naam</h2>
-            <p>Email: <br>Tel:</p>
+    <main class="person-view-container">
+        <section class="portfolio-person">
+            <div class="portfolio-person-image">
+                <img src="/public/images/Nilo.png" alt="person image" class="person-img">
+            </div>
+            <div class="portfolio-person-details">
+                <h1>Niloyan Sellathurai</h1>
+                <p>Email : hello@niloyansellathurai.dev</p>
+                <p>Tel : 0634009522</p>
+            </div>
         </section>
-        <section class="place-holder2">
-            <h2>Wie ben ik?</h2>
-            <p>
-                placeholder verhaal f f dsf fds fds fds dfs dfs f fs <br>fds fs fsd fs dfs fsd dfsdfs dfs dfs dfs dfsdfs dfs<br> dfs dfs fsdfs dfs dfs dsf dfs dsf<br> fd fds sf sf sf sf
-            </p>
+        <section class="person-about">
+            <h1>Wie ben ik ?</h1>
+            <p>Hallo, ik ben Niloyan, een bedreven full stack JavaScript-ontwikkelaar 
+                met een grote interesse in het ontwerpen van dynamische en boeiende websites. Met een stevige 
+                basis in webontwikkeling en specialisatie in JavaScript, streef ik ernaar hoogwaardige oplossingen 
+                te leveren die technische deskundigheid combineren met uitzonderlijke gebruikerservaringen.</p>
         </section>
-        <h1>Skills</h1>
-        <section class="place-holder3">
-            <p>PLaceholder</p>
-            <p>placeholder</p>
+        <section class="person-skills">
+            <h1>Skills</h1>
+            <ul>
+                <li class="list-items">HTML</li>
+                <li class="list-items">CSS</li>
+                <li class="list-items">JavaScript</li>
+                <li class="list-items">PHP</li>
+                <li class="list-items">MySQL</li>
+            </ul>
+            </div>
         </section>
-        <h1>Hobbies</h1>
-        <section class="place-holder4">
-            <p>Hobby</p><br>
-            <p>Hobby2</p>
+        <section class="person-hobby">
+            <h1>Hobby</h1>
+            <ul>
+                <li class="list-items">Netflixen</li>
+                <li class="list-items">Lezen</li>
+                <li class="list-items">Muziek luisteren</li>
+                <li class="list-items">Reizen</li>
+            </ul>
         </section>
-        <h1>Projecten</h1>
-        <section class="place-holder4">
-            <section class="portfolio-project-container">
+        <section class="portfolio-project-container">
+                <h1>Bekijk het werk</h1>
                 <div class="portfolio-project">
                     <div class="portfolio-project-card">
-                        <img src="/public/images/Projecten-1.png" class="portfolio-project-img">
-                        <h3>FinanceBook</h3>
-                        <p>Auteur : Niloyan Sellathurai</p>
+                    <img src="/public/images/Projecten-1.png" class="portfolio-project-img" >
+                    <h3>FinanceBook</h3>
+                    <p>Auteur : Niloyan Sellathurai</p>
                     </div>
 
                     <div class="portfolio-project-card">
-                        <img src="/public/images/Projecten-2.png" class="portfolio-project-img">
-                        <h3>Hart van India</h3>
-                        <p>Auteur : Niloyan Sellathurai</p>
+                    <img src="/public/images/Projecten-2.png" class="portfolio-project-img" >
+                    <h3>Hart van India</h3>
+                    <p>Auteur : Niloyan Sellathurai</p>
                     </div>
 
                     <div class="portfolio-project-card">
-                        <img src="/public/images/Projecten-1.png" class="portfolio-project-img">
-                        <h3>FinanceBook</h3>
-                        <p>Auteur : Niloyan Sellathurai</p>
+                    <img src="/public/images/Projecten-1.png" class="portfolio-project-img" >
+                    <h3>FinanceBook</h3>
+                    <p>Auteur : Niloyan Sellathurai</p>
                     </div>
                 </div>
             </section>
-        </section>
-
-    </div>
-</body>
+    </main>
 <?php include "partials/footer.php" ?>
+</body>
 
 </html>
