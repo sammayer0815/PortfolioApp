@@ -24,11 +24,17 @@ body {
   }
   .grid-container {
     grid-template-columns: repeat(autofit, minmax(180px, 1fr));
-    scale: 0.5;
+    /* scale: 0.5; */
   }
   .hero {
     flex-wrap: wrap;
     margin: 0 auto;
+    border-radius: 0;
+    padding: 0;
+    font-size: 1rem;
+  }
+  main {
+    padding: 0;
   }
   .hero-text {
     font-size: 2rem;
