@@ -11,12 +11,43 @@ html {
 
 body {
   display: grid;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: auto;
+}
+@media only screen and (min-width: 300px) {
+  .hero-text {
+    font-size: 1rem;
+  }
 }
 
-.grid-container {
-  grid-template-rows: repeat(1, 1fr);
-  grid-template-columns: repeat(1, 1fr);
-  gap: 1rem;
+@media only screen and (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .hero-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .hero-img {
+    width: 100%;
+    height: 40rem;
+    /* margin-left: 50px; */
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+footer {
+  margin-top: 5px;
 }
 
 main {

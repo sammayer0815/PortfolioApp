@@ -1,3 +1,9 @@
+.container-personview {
+  background-image: url("/public/images/background-image-rocketdev.png");
+  color: white;
+  text-align: center;
+}
+
 .place-holder {
   display: flex;
   margin: 0 auto;
@@ -27,4 +33,6 @@ h1 {
 
 .place-holder4 {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

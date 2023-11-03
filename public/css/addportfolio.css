@@ -1,0 +1,68 @@
+.addportfolio-page {
+  background-image: url("/public/images/background-image-rocketdev.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.addportfolio-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.addportfolio-form-inputs {
+  background-color: white;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.box1 {
+  height: 20rem;
+}
+
+.box1 {
+  height: 20rem;
+}
+.addportfolio-form-inputs input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  width: 50%;
+  font-size: 1.5rem;
+  border: 1px solid black;
+}
+
+.addportfolio-form-inputs label {
+  margin: 2rem;
+}
+.addportfolio-form-inputs input {
+  margin: 1rem;
+}
+
+.addportfolio-form-inputs textarea {
+  height: 15rem;
+  width: 25rem;
+  border: 2px solid #000000;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  resize: none;
+}
+
+input[type="file"] {
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  border: 1px solid black;
+  width: 100%;
+}
+
+input[type="submit"] {
+  align-self: flex-end;
+  width: 15%;
+}
