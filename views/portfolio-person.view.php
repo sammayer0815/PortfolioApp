@@ -5,6 +5,7 @@
 
 <body>
     <?php include "partials/header.php" ?>
+    <div class="container-personview">
     <section class="place-holder">
         <img src="/public/images/Nilo.png" />
         <h2 class="Name">naam</h2>
@@ -32,7 +33,7 @@
         <p>Project 2</p>
     </section>
 
-
+</div>
 </body>
 <?php include "partials/footer.php" ?>
 
