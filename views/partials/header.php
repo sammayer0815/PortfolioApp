@@ -1,7 +1,5 @@
 <header>
-    <div class="logo">
-        <a href="/"><img src="/public/images/logo.png" alt="logo" class="logo-img"></a>
-    </div>
+
     <nav>
         <!-- <section class="menu-container">
             <div class="menulist">
@@ -40,4 +38,7 @@
             </ul>
         </section>
     </nav>
+    <div class="logo">
+        <a href="/"><img src="/public/images/logo.png" alt="logo" class="logo-img"></a>
+    </div>
 </header>
