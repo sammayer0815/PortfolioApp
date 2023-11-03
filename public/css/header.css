@@ -120,6 +120,7 @@ nav li a {
     width: 100%;
     justify-content: center;
     align-items: center;
+    color: white;
   }
   #menu-toggle ~ .menu li {
     height: 0;
