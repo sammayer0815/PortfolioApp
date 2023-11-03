@@ -1,15 +1,13 @@
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-
+  flex-wrap: wrap-reverse;
+  width: 100%;
   padding: 2rem;
   background-color: black;
   color: white;
-  height: 20rem;
   text-decoration: none;
-  margin: 0;
 }
 
 footer ul {
@@ -28,4 +26,5 @@ footer a {
 
 .logo-footer {
   height: 15rem;
+  align-items: center;
 }

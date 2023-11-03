@@ -39,6 +39,10 @@ body {
     height: 40rem;
     /* margin-left: 50px; */
   }
+  footer {
+    text-align: center;
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -61,19 +65,17 @@ body {
     height: 40rem;
     /* margin-left: 50px; */
   }
+
+  footer {
+    text-align: center;
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 900px) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-footer {
-  margin-top: auto;
-  margin-bottom: auto;
-  bottom: 0;
-  flex-wrap: wrap;
 }
 
 main {
