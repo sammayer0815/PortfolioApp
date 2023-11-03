@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   color: white;
   padding: 2rem;
+  margin: 0 auto;
 }
 
 .portfolio-person {
@@ -11,7 +12,8 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 30rem;
+  margin-bottom: 2rem;
+  gap: 2rem;
 }
 
 .portfolio-person h1 {
@@ -22,6 +24,8 @@
   height: 30rem;
   border-radius: 20rem;
   border: 8px solid #34399c;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .person-about {
@@ -29,7 +33,9 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 30rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
 }
 
 .portfolio-person p {
@@ -39,6 +45,8 @@
 .person-about p {
   font-size: 1.5rem;
   width: 40%;
+  margin-bottom: 2rem;
+  gap: 2rem;
 }
 
 .person-skills {
@@ -46,7 +54,8 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 30rem;
+  margin-bottom: 2rem;
+  gap: 2rem;
 }
 
 .list-items {
@@ -58,11 +67,13 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 20rem;
+  margin-bottom: 2rem;
+  gap: 2rem;
 }
 
 .hobby {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 2rem;
 }
