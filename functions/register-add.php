@@ -3,7 +3,7 @@
 session_start();
 
 if (isset($_POST["username"]) && !isset($_SESSION['user_id'])) {
-    $username = $_POST["username"];
+    $name = $_POST["username"];
     $password_hashed = password_hash($_POST["password"], PASSWORD_DEFAULT);
     $email = $_POST["email"];
 
@@ -13,7 +13,7 @@ if (isset($_POST["username"]) && !isset($_SESSION['user_id'])) {
 
     $stmt = $conn->prepare($sql);
 
-    $stmt->bindParam(':username', $username, PDO::PARAM_STR);
+    $stmt->bindParam(':username', $name, PDO::PARAM_STR);
     $stmt->bindParam(':email', $email, PDO::PARAM_STR);
     $stmt->bindParam(':password', $password_hashed, PDO::PARAM_STR);
 

@@ -1,11 +1,11 @@
 <?php
 
-// session_start();
+session_start();
 
-// //Checks if user is logged in
-// if (!isset($_SESSION["email"])){
-//     header("Location: /");
-// }
+//Checks if user is logged in
+if (!isset($_SESSION["email"])){
+    header("Location: /");
+}
 
 session_write_close();
 
@@ -19,7 +19,7 @@ session_write_close();
         <?php include "partials/header.php" ?>
         <main class="dashboard-page">
             <div class="cta-add-portfolio">
-                <a href="#" class="addPortfolioBtn">Voeg toe+</a>
+                <a href="addportfolio" class="addPortfolioBtn">Voeg toe+</a>
             </div>
                 <div class="dashboard-portfolio">
                     <div class="dashboard-portfolio-view-name">
