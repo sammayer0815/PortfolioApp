@@ -3,7 +3,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  flex-grow: auto;
+
   padding: 2rem;
   background-color: black;
   color: white;
