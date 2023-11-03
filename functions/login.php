@@ -2,7 +2,7 @@
 
 session_start();
 
-if (isset($_POST["email"]) && !isset($_SESSION['user_id'])) {
+if (isset($_POST["email"]) && !isset($_SESSION['email'])) {
 
     $email = $_POST['email'];
     $passwordCheck = $_POST['password'];
@@ -25,7 +25,7 @@ if (isset($_POST["email"]) && !isset($_SESSION['user_id'])) {
         if (password_verify($passwordCheck, $storedPassword)) {
             //If password is correct
             $_SESSION['email'] = $email;
-            header('Location: /');
+            header('Location: /dashboard');
         } else {
             //If the password is wrong
             header("Location: /login");
