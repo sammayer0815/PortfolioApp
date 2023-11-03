@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include "partials/head.php" ?>
-<?php include "partials/header.php" ?>
 
 
 <body>
+    <?php include "partials/header.php" ?>
     <section class="place-holder">
         <img src="/public/images/Nilo.png" />
         <h2 class="Name">naam</h2>
