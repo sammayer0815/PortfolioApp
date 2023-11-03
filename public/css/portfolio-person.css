@@ -1,3 +1,7 @@
+body {
+  background-image: url("/public/images/background-image-rocketdev.png");
+}
+
 .place-holder {
   display: flex;
   margin: 0 auto;
