@@ -30,7 +30,6 @@
         <h1>Projecten</h1>
         <section class="place-holder4">
             <section class="portfolio-project-container">
-                <h1>Bekijk het werk</h1>
                 <div class="portfolio-project">
                     <div class="portfolio-project-card">
                         <img src="/public/images/Projecten-1.png" class="portfolio-project-img">
