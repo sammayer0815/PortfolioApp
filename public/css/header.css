@@ -131,7 +131,7 @@ nav li a {
   }
   #menu-toggle:checked ~ .menu li {
     border: 1px solid #333;
-    height: 2.5em;
+    height: 4.5rem;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
