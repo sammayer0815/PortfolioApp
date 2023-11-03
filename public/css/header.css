@@ -118,6 +118,7 @@ nav li a {
     left: 0;
     flex-direction: column;
     width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
@@ -146,5 +147,10 @@ nav li a {
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+
+  .cta-login {
+    border-radius: 0rem;
+    font-size: 1rem;
   }
 }
