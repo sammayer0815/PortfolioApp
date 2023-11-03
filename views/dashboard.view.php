@@ -7,6 +7,8 @@
 //     header("Location: /");
 // }
 
+session_write_close();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

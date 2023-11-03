@@ -19,9 +19,6 @@ body {
   .hero-text {
     font-size: 1rem;
   }
-}
-
-@media only screen and (min-width: 600px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -40,6 +37,9 @@ body {
   }
 }
 
+@media only screen and (min-width: 600px) {
+}
+
 @media only screen and (min-width: 900px) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
@@ -47,7 +47,10 @@ body {
 }
 
 footer {
-  margin-top: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  bottom: 0;
+  flex-wrap: wrap;
 }
 
 main {

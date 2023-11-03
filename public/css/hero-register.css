@@ -1,7 +1,6 @@
 .hero-register {
   display: flex;
   justify-content: space-around;
-  height: 500px;
   padding: 3rem;
   margin: 3rem 0rem;
   gap: 2rem;
@@ -20,6 +19,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  text-align: center;
 }
 
 .hero-register-text h1 {
@@ -29,7 +29,6 @@
 .cta-hero-register {
   background-color: #b23a8a;
   padding: 1rem 1.5rem;
-  width: 30%;
   font-size: 1rem;
   border-radius: 20rem;
   text-decoration: none;

@@ -53,9 +53,9 @@
                 </div>
             </section>
         </main>
-
+        <?php include "partials/footer.php" ?>
     </div>
-    <?php include "partials/footer.php" ?>
+
 </body>
 
 </html>
