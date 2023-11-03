@@ -12,7 +12,8 @@ $routes = [
     "/404" => "controllers/404.php",
     "/succes" => "controllers/succes.php",
     "/contact" => "controllers/contact.php",
-    "/portfolio-person" => "controllers/portfolio-person.php"
+    "/portfolio-person" => "controllers/portfolio-person.php",
+    "/addportfolio" => "controllers/addportfolio.php",
 ];
 
 if (array_key_exists($_SERVER['REQUEST_URI'], $routes)) {

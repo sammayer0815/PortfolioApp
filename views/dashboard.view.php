@@ -1,11 +1,11 @@
 <?php
 
-session_start();
+// session_start();
 
-//Checks if user is logged in
-if (!isset($_SESSION["email"])){
-    header("Location: /");
-}
+// //Checks if user is logged in
+// if (!isset($_SESSION["email"])){
+//     header("Location: /");
+// }
 
 ?>
 <!DOCTYPE html>
