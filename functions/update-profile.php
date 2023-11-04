@@ -114,7 +114,7 @@ if (isset($_POST["bericht"]) && isset($_SESSION['email'])) {
         }
     }
 
-    // header("Location: /portfolio-person");
+    header("Location: /portfolio-person");
 } else {
     header('Location: /');
 }
