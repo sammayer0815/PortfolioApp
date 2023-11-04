@@ -13,7 +13,7 @@
                   <input type="text" name="name" id="name" placeholder="Naam" required>
                   <input type="email" name="email" id="email" placeholder="Vul hier je email in" required>
                   <textarea placeholder="Bericht...." required></textarea>
-                  <input type="submit" value="Verzenden">
+                  <input type="submit" id="submitContact"value="Verzenden" >
                </form>
             </div>
          </div>

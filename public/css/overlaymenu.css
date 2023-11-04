@@ -7,7 +7,7 @@
   height: 3rem;
 }
 
-input[type="submit"] {
+#op {
   display: none;
 }
 
