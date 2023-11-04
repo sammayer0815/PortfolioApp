@@ -83,10 +83,10 @@ require_once './core/conn.php';
                     $imgData = $row['Portfolio_img'];
                     $binaryData = base64_decode($imgData);
                     $img = imagecreatefromstring($binaryData);
-                    $filename = $project['project_name'] . "_img";
-                    imagejpeg($img, $filename);
-                    $projectImage = $filename;
-                    imagedestroy($img);
+                    // $filename = $project['project_name'] . "_img";
+                    // imagejpeg($img, $filename);
+                    // $projectImage = $filename;
+                    // imagedestroy($img);
                 }
 
                 ?>

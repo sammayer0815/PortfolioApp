@@ -29,7 +29,7 @@
                         <h3>Upload hier een screenshot van jouw werk</h3>
                         <input type="file" id="files" name="workImage[]" multiple accept=".png"><br><br>
                         <h3>Upload hier een foto van jouw</h3>
-                        <input type="file" id="files" name="profileImage" accept="*"><br>
+                        <input type="file" id="files" name="profileImage" accept=".png"><br>
                     </div>
                     <div class="addportfolio-form-inputs" id="skillInput">
                         <h3>Geef hier aan welke skills je hebt</h3>
