@@ -24,11 +24,30 @@
                         <h2>Fouad Taissate</h2>
                         <a href="/profileview" class="cta-profileview">Bekijk</a>
                     </div>
+                    <?php
+
+                    require_once("./core/conn.php");
+
+                    $sql = "SELECT id, username FROM users WHERE about IS NOT NULL";
+
+                    $stmt = $conn->prepare($sql);
+                    $stmt->execute();
+
+                    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                        echo '  <div class="portofolio-card">
+                                    <img src="/uploadedImages/' . $row['id'] .'.png" alt="foto persoon" class="profile-photo">
+                                    <h2>' . $row['username'] . '</h2>
+                                    <a href="/portfolio-persoon?id='. $row['id'] .'" class="cta-profileview">Bekijk</a>
+                                </div>';
+                    }
+
+                    ?>
                 </div>
             </section>
-            
-        
+
+
         </main>
         <?php include "partials/footer.php" ?>
 </body>
+
 </html>
