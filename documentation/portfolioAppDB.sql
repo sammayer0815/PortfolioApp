@@ -25,11 +25,12 @@ CREATE TABLE IF NOT EXISTS `portfolioApp`.`users` (
   `username` VARCHAR(64) NULL,
   `email` VARCHAR(255) NULL,
   `password` VARCHAR(255) NULL,
-  `Portfolio_img_location` VARCHAR(45) NULL,
-  `Profile_img_location` VARCHAR(45) NULL,
+  `linkedInURL` VARCHAR(128) NULL,
+  `githubURL` VARCHAR(128) NULL,
+  `about` VARCHAR(2048) NULL,
   `Created_at` TIMESTAMP NULL,
   `Updated_at` TIMESTAMP NULL,
-  UNIQUE KEY (`email`, `Portfolio_img_location`, `Profile_img_location`),
+  UNIQUE KEY (`email`),
   PRIMARY KEY (`ID`));
 
 
@@ -37,12 +38,11 @@ CREATE TABLE IF NOT EXISTS `portfolioApp`.`users` (
 -- Table `portfolioApp`.`educations`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `portfolioApp`.`educations` (
-  `ID_Education` INT NOT NULL,
+  `ID_Education` INT NOT NULL AUTO_INCREMENT,
   `Name` VARCHAR(45) NULL,
   `About` VARCHAR(45) NULL,
   `user_ID` INT NOT NULL,
   PRIMARY KEY (`ID_Education`, `user_ID`),
-  INDEX `fk_Education_user_idx` (`user_ID` ASC) VISIBLE,
   CONSTRAINT `fk_Education_user`
     FOREIGN KEY (`user_ID`)
     REFERENCES `portfolioApp`.`users` (`ID`)
@@ -71,10 +71,9 @@ CREATE TABLE IF NOT EXISTS `portfolioApp`.`results` (
 -- Table `portfolioApp`.`hobbies`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `portfolioApp`.`hobbies` (
-  `Name` VARCHAR(45) NULL,
+  `hobby` VARCHAR(45) NULL,
   `About` VARCHAR(45) NULL,
   `user_ID` INT NOT NULL,
-  PRIMARY KEY (`user_ID`),
   CONSTRAINT `fk_Hobby_user1`
     FOREIGN KEY (`user_ID`)
     REFERENCES `portfolioApp`.`users` (`ID`)
@@ -88,9 +87,8 @@ CREATE TABLE IF NOT EXISTS `portfolioApp`.`hobbies` (
 CREATE TABLE IF NOT EXISTS `portfolioApp`.`skills` (
   `user_ID` INT NOT NULL,
   `Level` INT NULL,
-  `Name` VARCHAR(45) NULL,
+  `skill` VARCHAR(45) NULL,
   `About` VARCHAR(45) NULL,
-  PRIMARY KEY (`user_ID`),
   CONSTRAINT `fk_Skills_user1`
     FOREIGN KEY (`user_ID`)
     REFERENCES `portfolioApp`.`users` (`ID`)
@@ -111,6 +109,19 @@ CREATE TABLE IF NOT EXISTS `portfolioApp`.`jobExperience` (
   `user_ID` INT NOT NULL,
   PRIMARY KEY (`user_ID`),
   CONSTRAINT `fk_Job_Experience_user1`
+    FOREIGN KEY (`user_ID`)
+    REFERENCES `portfolioApp`.`users` (`ID`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION);
+
+
+-- -----------------------------------------------------
+-- Table `portfolioApp`.`portfolioimages`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `portfolioApp`.`portfolioimages` (
+  `portfolio_img` MEDIUMBLOB NULL,
+  `user_ID` INT NOT NULL,
+  CONSTRAINT `fk_portfolioimages_user1`
     FOREIGN KEY (`user_ID`)
     REFERENCES `portfolioApp`.`users` (`ID`)
     ON DELETE NO ACTION

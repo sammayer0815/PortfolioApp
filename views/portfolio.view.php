@@ -37,10 +37,9 @@
                         echo '  <div class="portofolio-card">
                                     <img src="/uploadedImages/' . $row['id'] .'.png" alt="foto persoon" class="profile-photo">
                                     <h2>' . $row['username'] . '</h2>
-                                    <a href="/portfolio-persoon?id='. $row['id'] .'" class="cta-profileview">Bekijk</a>
+                                    <a href="/portfolio-person?id='. $row['id'] .'" class="cta-profileview">Bekijk</a>
                                 </div>';
                     }
-
                     ?>
                 </div>
             </section>

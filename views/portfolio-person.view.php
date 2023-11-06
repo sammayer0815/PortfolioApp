@@ -114,7 +114,7 @@ require_once './core/conn.php';
                 $counter = 1;
 
                 foreach ($results as $row) {
-                    $imgData = $row['Portfolio_img'];
+                    $imgData = $row['portfolio_img'];
                     $binaryData = base64_decode($imgData);
                     $img = imagecreatefromstring($binaryData);
                     $filename = $counter . "_img.jpg";

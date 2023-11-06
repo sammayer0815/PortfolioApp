@@ -1,5 +1,6 @@
 .register-page {
   background-image: url("/public/images/background-image-rocketdev.png");
+  background-size: cover;
 }
 
 .register-form-container {
