@@ -26,5 +26,5 @@ if (array_key_exists($uri, $routes)) {
     $id = isset($_GET['id']) ? $_GET['id'] : null;
     require 'controllers/portfolio-person.php';
 } else {
-    require 'views/404.view.php';
+    require 'views/404.view.php';   
 }
