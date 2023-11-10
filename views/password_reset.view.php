@@ -7,7 +7,7 @@
         <div class="reset-form-container">
             <div class="resetform">
                <h1>Wachtwoord <br>resetten</h1>
-               <form action="./functions/password-reset.php" method="post">
+               <form action="./password_new" method="post">
                   <input type="email" name="email" id="email" placeholder="Vul hier je email in" required>
                   <input type="submit" value="Wachtwoord resetten">
                </form>
